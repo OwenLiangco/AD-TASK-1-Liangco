@@ -60,6 +60,10 @@ a.button {
     100% { transform: translateY(0);}
 }
 
+.game-card img {
+    animation: float 3s ease-in-out infinite;
+}
+
 .modalImage {
     max-width: 100%;
 }
