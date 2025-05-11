@@ -39,5 +39,16 @@ $games = [
         ?>
     </div>
     <a class= "button" href= "/homePage.php">← Back to Home</a>
+
+    <div id= "gameModal" class= "modal hidden">
+        <div class= "modal-content">
+            <span class= "close-buttton" onclick= "closemodal()">x</span>
+            <img id = "modalImage" src= "" alt= "Game Cover">
+            <h2 id = "modalTitle"></h2>
+            <p id = "modalConsole"></p>
+            <p id = "modalRelease"></p>
+            <p id = "modalReview"></p>
+        </div>
+    </div>
 </body>
 </html>
