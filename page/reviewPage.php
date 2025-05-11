@@ -17,6 +17,9 @@ $games = [
     <link rel= "stylesheet" href="./assets/css/example.css">
 </head>
 <body>
-    
+    <h1>My Top 5 Retro Games</h1>
+    <div class = "game-list">
+        
+    </div>
 </body>
 </html>
