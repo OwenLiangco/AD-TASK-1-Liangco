@@ -10,4 +10,16 @@ document.addEventListener("DOMContentLoaded", () => {
     const modalRelease = document.getElementById("modalRelease");
     const modalReview = document.getElementById("modalReview");
 
-})
+    cards.forEach((card, index) => {
+        card.addEventListener("click", () => {
+            const game = gameData[index];
+
+            modalImage.src = game.image;
+            modalTitle.textContent = game.title;
+            modalConsole.textContent = `Console: ${game.console}`;
+            modalRelease.textContent = `Released: ${game.year}`;
+
+            modal.classList.remove("hidden");
+        });
+    });
+});
