@@ -54,6 +54,12 @@ a.button {
     color: #5dade2;
 }
 
+@keyframes float {
+    0% { transform: translateY(0)}
+    50% { transform: translateY(-5px);}
+    100% { transform: translateY(0);}
+}
+
 .modalImage {
     max-width: 100%;
 }
