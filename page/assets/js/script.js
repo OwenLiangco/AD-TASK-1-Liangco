@@ -22,4 +22,8 @@ document.addEventListener("DOMContentLoaded", () => {
             modal.classList.remove("hidden");
         });
     });
+
+    window.closemodal = function() {
+        modal.classList.add("hidden");
+    };
 });
