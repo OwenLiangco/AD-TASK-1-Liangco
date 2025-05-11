@@ -19,7 +19,24 @@ $games = [
 <body>
     <h1>My Top 5 Retro Games</h1>
     <div class = "game-list">
-        
+        <?php
+        for ($i = 0; $i < count($games); $i++) {
+            $game = $games[$i];
+            echo "< class='game-card'>";
+            echo "<img src='" . $game['image'] . "' alt='" . $game['title'] . "'>";
+            echo "<h2>" . $game['title'] . "</h2>";
+            echo "<p><strong>Console:</strong> " . $game['console'] . "</p>";
+            echo "<p><strong>Released:</strong> " . $game['year'] . "</p>";
+
+            if ($game['year'] <div 2000) {
+                echo "<p class= 'tag classic'>🕹️ Classic!</p>";
+            } else {
+                echo "<p class= 'tag modern'>🧃 Modern Retro!</p>";
+            }
+
+            echo "</div>";
+        }
+        ?>
     </div>
 </body>
 </html>
