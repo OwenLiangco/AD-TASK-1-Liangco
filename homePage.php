@@ -11,16 +11,16 @@ $intro = "Welcome~! to my mini showcase of my top 5 retro games that shaped my c
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><? = $title ?></title>
+    <title><?= $title ?></title>
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-    <h1><? = $title ?></h1>
+    <h1><?= $title ?></h1>
     <p class = "intro">
-        <? = $intro ?>
+        <?= $intro ?>
     </p>
     <p class = "author">
-        Created by: <? = $author?>
+        Created by: <? =$author?>
     </p>
     <a class = "button" href = "./page/reviewPage.php"> 🎮 View My Top 5 Games</a>
 </body>
