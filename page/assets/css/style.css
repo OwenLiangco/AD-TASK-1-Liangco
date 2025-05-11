@@ -94,6 +94,12 @@ a.button {
     text-align: center;
 }
 
+.close-button {
+    float: right;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
 .modalImage {
     max-width: 100%;
 }
