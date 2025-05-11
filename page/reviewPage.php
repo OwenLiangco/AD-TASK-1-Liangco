@@ -50,5 +50,8 @@ $games = [
             <p id = "modalReview"></p>
         </div>
     </div>
+
+    <script id="gameData" type="application/json"><?= json_encode($games, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?></script>
+    <script src= "./assets/js/script.js"></script>
 </body>
 </html>
