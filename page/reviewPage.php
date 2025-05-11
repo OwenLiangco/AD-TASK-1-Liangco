@@ -38,5 +38,6 @@ $games = [
         }
         ?>
     </div>
+    <a class= "button" href= "/homePage.php">← Back to Home</a>
 </body>
 </html>
