@@ -7,3 +7,15 @@ $games = [
     ["title" => "Pokémon Emerald", "year" => 2004, "console" => "GBA", "image" => "./assets/img/PokemonEmeraldBox.jpg", "review" => "A fan-favorite game with epic post-game content. This was my very first Pokémon game, the region, the soundtrack, the pokémon, and everything! Pokémon Emerald will be my forever go-to Pokémon game and would highly recommend to others."]
 ];
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
