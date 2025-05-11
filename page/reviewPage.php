@@ -42,8 +42,8 @@ $games = [
 
     <div id= "gameModal" class= "modal hidden">
         <div class= "modal-content">
-            <span class= "close-buttton" onclick= "closemodal()">x</span>
-            <img id = "modalImage" src= "" alt= "Game Cover">
+            <span class= "close-buttton" onclick= "closemodal()"></span>
+            <img id = "modalImage" src= "" alt= "Game Cover" style = "max-width: 100%">
             <h2 id = "modalTitle"></h2>
             <p id = "modalConsole"></p>
             <p id = "modalRelease"></p>
