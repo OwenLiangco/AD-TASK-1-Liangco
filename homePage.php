@@ -14,6 +14,9 @@ $intro = "Welcome~! to my mini showcase of my top 5 retro games that shaped my c
     <title><? = $title ?></title>
 </head>
 <body>
-    
+    <h1><? = $title ?></h1>
+    <p class = "intro">
+        
+    </p>
 </body>
 </html>
