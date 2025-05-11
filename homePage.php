@@ -16,7 +16,11 @@ $intro = "Welcome~! to my mini showcase of my top 5 retro games that shaped my c
 <body>
     <h1><? = $title ?></h1>
     <p class = "intro">
-        
+        <? = $intro ?>
     </p>
+    <p class = "author">
+        Created by: <? = $author?>
+    </p>
+    <a class = "button" href = "./page/reviewPage.php"> 🎮 View My Top 5 Games</a>
 </body>
 </html>
