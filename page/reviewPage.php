@@ -14,7 +14,7 @@ $games = [
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Retro Games List</title>
-    <link rel= "stylesheet" href="./assets/css/example.css">
+    <link rel= "stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <h1>My Top 5 Retro Games</h1>
@@ -22,13 +22,13 @@ $games = [
         <?php
         for ($i = 0; $i < count($games); $i++) {
             $game = $games[$i];
-            echo "< class='game-card'>";
+            echo "<div class='game-card'>";
             echo "<img src='" . $game['image'] . "' alt='" . $game['title'] . "'>";
             echo "<h2>" . $game['title'] . "</h2>";
             echo "<p><strong>Console:</strong> " . $game['console'] . "</p>";
             echo "<p><strong>Released:</strong> " . $game['year'] . "</p>";
 
-            if ($game['year'] <div 2000) {
+            if ($game['year'] < 2000) {
                 echo "<p class= 'tag classic'>🕹️ Classic!</p>";
             } else {
                 echo "<p class= 'tag modern'>🧃 Modern Retro!</p>";
