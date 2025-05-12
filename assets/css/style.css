@@ -10,7 +10,7 @@ h1 {
     color: #f7c948
 }
 
-.intro, .author {
+.intro, .author .section {
     margin-bottom: 20px;
 }
 
