@@ -22,7 +22,9 @@ $section = "TW22";
     <p class = "author">
         Created by: <?= $author?>
     </p>
-    
+    <p class = "section">
+        Section: <?= $section?>
+    </p>
     <a class = "button" href = "./page/reviewPage.php"> 🎮 View My Top 5 Games</a>
 </body>
 </html>
