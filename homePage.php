@@ -3,7 +3,7 @@
 $title = "Top 5 Retro Games I Love";
 $author = "Owen Kyle G. Liangco";
 $intro = "Welcome~! to my mini showcase of my top 5 retro games that shaped my childhood and love for gaming!";
-
+$section = "TW22";
 ?>
 
 <!DOCTYPE html>
@@ -22,6 +22,7 @@ $intro = "Welcome~! to my mini showcase of my top 5 retro games that shaped my c
     <p class = "author">
         Created by: <?= $author?>
     </p>
+    
     <a class = "button" href = "./page/reviewPage.php"> 🎮 View My Top 5 Games</a>
 </body>
 </html>
