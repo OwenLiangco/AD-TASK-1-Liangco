@@ -38,7 +38,7 @@ $games = [
         }
         ?>
     </div>
-    <a class= "button" href= "/homePage.php">← Back to Home</a>
+    <a class= "button" href= "./../index.php">← Back to Home</a>
 
     <div id= "gameModal" class= "modal hidden">
         <div class= "modal-content">
