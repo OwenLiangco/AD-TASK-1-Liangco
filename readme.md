@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/7.png" alt="Owen's Logo" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">AD Task 1</h3>
@@ -56,15 +56,16 @@
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 
-Description of the project in details.
+A simple review website. Built with PHP and the fundamentals of HTML coding.
 
 ### Key Components
 
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 
-- Authentication & Authorization
-- CRUD Operations for Invetory System
+- PHP and HTML fundamentals 
+- Declarations
+-Conditionals
 
 ### Technology
 
